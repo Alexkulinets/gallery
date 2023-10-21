@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.gallery {
+  width: 650px;
+  height: 650px;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.img_container {
+  width: 200px;
+  height: 200px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  transition: 1s;
+}/*# sourceMappingURL=style.css.map */
