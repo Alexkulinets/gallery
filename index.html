@@ -8,15 +8,19 @@
 </head>
 <body>
     <div class="gallery">
-        <div class="img_container"><img src="./img/pexels-eberhard-grossgasteiger-1366922.jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-eberhard-grossgasteiger-572897.jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-jacub-gomez-1142950.jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-kammeran-gonzalezkeola-9638689 (1).jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-luis-del-río-15286.jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-ruvim-miksanskiy-1438761.jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-sam-kolder-2387873.jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-stein-egil-liland-3408744.jpg" alt="" class="photo"></div>
-        <div class="img_container"><img src="./img/pexels-walid-ahmad-1509582.jpg" alt="" class="photo"></div>
+        <div class="img_container"><img src="./img/pexels-eberhard-grossgasteiger-1366922.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-eberhard-grossgasteiger-572897.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-jacub-gomez-1142950.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-kammeran-gonzalezkeola-9638689 (1).jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-luis-del-río-15286.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-ruvim-miksanskiy-1438761.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-sam-kolder-2387873.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-stein-egil-liland-3408744.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+        <div class="img_container"><img src="./img/pexels-walid-ahmad-1509582.jpg" alt="" class="photo" onclick="FullView(this.src)"></div>
+    </div>
+    <div id="FullImageView">
+        <img id="FullImage"/>
+        <span id="CloseButton" onclick="CloseFullView()">X</span>
     </div>
     <script src="index.js"></script>
 </body>
